@@ -18,7 +18,7 @@
 
 
 
-/*------- С Т У Д І Я ------- */
+/* ------- С Т У Д І Я ------- */
 body {
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
@@ -30,7 +30,7 @@ body {
 
 
 
-/*------- H E D E R -------*/
+/* ------- H E D E R ------- */
 .header .link {
     font-size: 14px;
     font-weight: 500;
@@ -84,7 +84,7 @@ body {
 
 
 
-/*------- M A I N -------*/
+/* ------- M A I N ------- */
 /*hero*/
 .hero-section {
     background-color: var(--blocks-background-color);
@@ -191,7 +191,7 @@ body {
 
 
 
-/*------- F O O T E R -------*/
+/* ------- F O O T E R ------- */
 .footer {
     background-color:var(--blocks-background-color);
 }
@@ -245,7 +245,7 @@ address {
 
 
 
-/*------- П О Р Т Ф О Л І О ------- */
+/* ------- П О Р Т Ф О Л І О ------- */
 
 /*buttons*/
 .button-list .button {
