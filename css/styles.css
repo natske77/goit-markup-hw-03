@@ -41,11 +41,12 @@ p {
     padding: 94px 0;
 }
 
-/* img {
+img {
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto;
-} */
+}
+
 /* ------- С Т У Д І Я ------- */
 body {
     margin: 0;
@@ -150,7 +151,7 @@ body {
     margin: 0 auto;
     margin-bottom: 30px;
     
-
+    max-width: 696px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -196,7 +197,7 @@ body {
 }
 
 .features-section .text {
-    margin-top: 0;
+    margin: 0;
     font-size: 14px;
     line-height: 1.7;
     color: var(--secondary-text-color);
@@ -260,7 +261,7 @@ body {
 }
 
 .work-team-section .worker-profession {
-    margin: 0 0 30px;
+    margin: 0;
 
     font-weight: 400;
     font-size: 16px;
@@ -277,6 +278,7 @@ body {
 }
 
 .team-list .list {
+    padding-bottom: 108px;
     width: 270px;
     height: 368px;
     background-color: var(--white-color);
@@ -353,7 +355,7 @@ address {
 
 /*buttons*/
 .button-list .button {
-    margin: 0 4px;
+    
     padding: 6px 22px;
 
     font-weight: 500;
@@ -368,6 +370,10 @@ address {
     border: none;
     border-radius: 4px; 
     background: var(--secondary-background-color);
+}
+
+.button-list .list:not(:last-child) {
+    margin-right: 8px;
 }
 
 
@@ -392,7 +398,7 @@ address {
 
 /*projects*/
 .projects-list .title {
-    margin: 0 0 4px 24px;
+    margin: 0 0 4px 0;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -401,7 +407,7 @@ address {
 }
 
 .projects-list .type {
-    margin: 0 0 20px 24px;
+    margin: 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
@@ -420,14 +426,16 @@ address {
     text-decoration: none;
 }
 
-.projects-list .list {
+.projects-list .card {
     width: 370px;
     height: 404px;
-    
+
     background: #FFFFFF;
-    border: 1px solid #EEEEEE;
 }
 
-.projects-list img {
-    margin-bottom: 20px;
+.projects-list .card-border {
+    padding: 20px 24px;
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
 }
