@@ -427,6 +427,7 @@ address {
 }
 
 .projects-list .card {
+    padding-bottom: 30px;
     width: 370px;
     height: 404px;
 
